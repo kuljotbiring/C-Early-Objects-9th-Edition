@@ -13,7 +13,7 @@
 using namespace std;
 
 int main() {
-
+    // variables - ahh tssit!
     double candy, cost, revenue;
 
     // Get the number of candy sold.
