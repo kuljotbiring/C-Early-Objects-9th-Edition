@@ -1,30 +1,3 @@
-
-Skip to content
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @kuljotbiring
-
-0
-0
-
-    0
-
-kuljotbiring/C-Early-Objects-9th-Edition
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-Settings
-C-Early-Objects-9th-Edition/Ch1_01.cpp
-09d3569 a minute ago
-@kuljotbiring kuljotbiring Create Ch1_01.cpp
-35 lines (27 sloc) 1004 Bytes
 /*********************************************************************
 ** Author: Kuljot Biring
 **
@@ -60,18 +33,3 @@ int main() {
 return 0;
 }
 
-    © 2018 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    API
-    Training
-    Shop
-    Blog
-    About
-
-Press h to open a hovercard with more details.
