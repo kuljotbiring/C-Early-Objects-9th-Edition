@@ -43,7 +43,7 @@ int main() {
 
     double candy, cost, revenue;
 
-    // Get the cost of the candy.
+    // Get the number of candy sold.
     cout << "How many candies did you sell?";
     cin >> candy;
 
