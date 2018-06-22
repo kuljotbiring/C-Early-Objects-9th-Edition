@@ -14,6 +14,7 @@ using namespace std;
 
 int main() {
 
+    // variables 
     double candy, cost, revenue;
 
     // Get the number of candy sold.
