@@ -12,16 +12,15 @@
 *********************************************************************/
 
 #include <iostream>
-using namespace std;
+
 
 int main()
 {
-    int acreFeet = 43560,
-        halfAcreFeet = acreFeet * .5;
-    double acreMeter = 10.7639,
-           halfAcreMeter = acreMeter * .5;
+    int acreSqft = 43450,
+        areaPlot = 869 * 360,
+        yourLand = areaPlot / acreSqft;
 
-    cout << "A half acre has " << halfAcreFeet << " feet and " << halfAcreMeter << " meters.\n";
-    
+    std::cout << "Your tract of land is " << yourLand << " acres\n";
+
     return 0;
 }
