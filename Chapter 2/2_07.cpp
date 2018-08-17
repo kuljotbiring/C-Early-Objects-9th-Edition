@@ -8,16 +8,18 @@
 ** in a tract of land whose size is 869 X 360 feet.
 *********************************************************************/
 
-
 #include <iostream>
-using namespace std;
+
 
 int main()
 {
-    int acreSqft = 43450,
-        areaPlot = 869 * 360,
-        yourLand = areaPlot / acreSqft;
+    int acreFeet = 43560,
+        halfAcreFeet = acreFeet * .5;
+    double acreMeter = 10.7639,
+           halfAcreMeter = acreMeter * .5;
 
-    cout << "Your tract of land is " << yourLand << " acres\n";
+    std::cout << "A half acre has " << halfAcreFeet << " feet and "
+    << halfAcreMeter << " meters.\n";
+
     return 0;
 }
