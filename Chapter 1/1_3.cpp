@@ -10,27 +10,27 @@
 *********************************************************************/
 
 #include <iostream>
-using namespace std;
+
 
 int main() {
 
     double soil, seeds, fence, totalCost;
 
     // Get the cost of the soil spent.
-    cout << "How much did you spend on soil?";
-    cin >> soil;
+    std::cout << "How much did you spend on soil? ";
+    std::cin >> soil;
 
     // Get the cost of flower seeds.
-    cout << "How much did you spend on flower seeds?";
-    cin >> seeds;
+    std::cout << "How much did you spend on flower seeds? ";
+    std::cin >> seeds;
 
     // Get the cost of the fence.
-    cout << "How much did the fencing cost";
-    cin >> fence;
+    std::cout << "How much did the fencing cost? ";
+    std::cin >> fence;
 
     // Calculate the total cost for the flower garden.
     totalCost = soil + seeds + fence;
-    cout << "The total cost of your flower garden display is: $" << totalCost << endl;
+    std::cout << "The total cost of your flower garden display is: $" << totalCost << std::endl;
 
     return 0;
 }
