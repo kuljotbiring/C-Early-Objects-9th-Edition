@@ -9,27 +9,27 @@
 ** the amount the organization earns for each bar sold. It should
 ** then calculate and display the total amount earned.
 *********************************************************************/
+
 #include <iostream>
-using namespace std;
+
 
 int main() {
 
-    // variables 
     double candy, cost, revenue;
 
-    // Get the number of candy sold.
-    cout << "How many candies did you sell?";
-    cin >> candy;
+    // Get the cost of the candy.
+    std::cout << "How many candies did you sell? ";
+    std::cin >> candy;
 
     // Get cost of candy.
-    cout << "What is the cost of the candy bar?";
-    cin >> cost;
+    std::cout << "What is the cost of the candy bar? ";
+    std::cin >> cost;
 
     // Calculate total revenue generated.
     revenue = candy * cost;
 
     // Display the total amount raised for the fundraiser.
-     cout << "You have raised $" << revenue << endl;
+    std::cout << "You have raised $" << revenue << std::endl;
      
 return 0;
 }
