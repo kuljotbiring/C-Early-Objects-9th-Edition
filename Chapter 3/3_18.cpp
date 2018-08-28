@@ -20,18 +20,22 @@
 
 int main ()
 {
+    // define variables
     const double TAX_RATE = .0264;
 
     double propertyValue,
            taxValue,
            totalTax;
 
+    // get user input
     std::cout << "Please enter the total assessed value of your home\n";
     std::cin >> propertyValue;
 
+    // calculate results
     taxValue = propertyValue * .6;
     totalTax = taxValue * TAX_RATE;
 
+    // display results
     std::cout << "The total tax you will pay on the assessed value of your home of $"
               << std::fixed << std::showpoint << std::setprecision(2)
               << propertyValue << " is $" << totalTax << std::endl;
