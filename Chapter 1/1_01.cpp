@@ -12,10 +12,11 @@
 
 #include <iostream>
 
-
 int main() {
 
-    double candy, cost, revenue;
+    double candy {},
+           cost {},
+           revenue {};
 
     // Get the cost of the candy.
     std::cout << "How many candies did you sell? ";
@@ -32,5 +33,5 @@ int main() {
     std::cout << "You have raised $" << revenue << std::endl;
      
 return 0;
-}
 
+}
