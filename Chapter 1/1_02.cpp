@@ -12,13 +12,12 @@
 
 #include <iostream>
 
-
 int main()
 
 {
-
-    int balls;
-    double cost, purchase;
+    int balls {};
+    double cost {},
+           purchase {};
 
     // Get the cost of the balls.
     std::cout << "What was the price of each ball? ";
