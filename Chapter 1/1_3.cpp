@@ -11,10 +11,12 @@
 
 #include <iostream>
 
-
 int main() {
 
-    double soil, seeds, fence, totalCost;
+    double soil {},
+           seeds {},
+           fence {},
+           totalCost {};
 
     // Get the cost of the soil spent.
     std::cout << "How much did you spend on soil? ";
