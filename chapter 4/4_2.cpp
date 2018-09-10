@@ -1,6 +1,13 @@
-//
-// Created by Kuljot Singh Biring on 6/19/18.
-//
+/*********************************************************************
+** Author: Kuljot Biring
+**
+** Date: June 19, 2019
+**
+** Write a program that asks the user to enter a number
+** within the range of 1 through 10. Use a switch statement to display
+** the Roman numeral version of that number.
+*********************************************************************/
+
 #include <iostream>
 
 using std::cout;
@@ -9,7 +16,7 @@ using std::endl;
 
 int main()
 {
-    int numConv;
+    int numConv{};
 
     cout << "Please type a number 1-10 only and press enter\n";
     cout<< "The number you enter will be converted to a Roman Numeral\n";
