@@ -1,7 +1,7 @@
 /*********************************************************************
 ** Author: Kuljot Biring
 **
-** Date: February 19, 2018
+** Date: June 19, 2018
 **
 ** Challenge: An online book club awards points to its customers based
 ** on the number of books purchased each month as follows:
