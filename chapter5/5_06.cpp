@@ -9,8 +9,8 @@
 ** risen each year for the next 25 years.
 *********************************************************************/
 
-#include <iostream>
-#include <iomanip>
+# include <iostream>
+# include <iomanip>
 using namespace std;
 
 int main()
