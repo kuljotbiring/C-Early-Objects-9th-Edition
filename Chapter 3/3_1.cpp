@@ -5,7 +5,7 @@
 **
 ** Write a program that calculates a car's gas mileage.
 ** This program should ask the user to enter the number of gallons of
-** gas the car can hold and the number of miles it can be driven on
+** gas the car can hold & the number of miles it can be driven on
 ** a full tank. It should then calculate and display the number of
 ** miles per gallon the car gets.
 *********************************************************************/
